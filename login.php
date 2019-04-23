@@ -10,7 +10,7 @@ include_once 'database/banco.php';
 
 <div class="valign-wrapper row login-box">
   <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
-    <form class="" method="post" action="registrar.php">
+    <form class="" method="post" action="login.php">
       <div class="card-content">
         <img src="img/logo-menor.png" class="" alt="logotipo">
         <div class="row">
@@ -25,11 +25,15 @@ include_once 'database/banco.php';
         </div>
       </div>
       <div class="card-action right-align">
-        <button type="submit" class="btn orange waves-effect waves-light" value="btn-login">Entrar</button>
+        <button type="submit" class="btn orange waves-effect waves-light">Entrar</button>
       </div>
     </form>
   </div>
 </div>
+<?php
+  //verificação dos inputs via post
+
+?>
 
 <?php
 require_once 'layout/rodape.html';

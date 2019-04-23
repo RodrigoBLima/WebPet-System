@@ -10,7 +10,7 @@ include_once 'database/banco.php';
 
 <div class="valign-wrapper row login-box">
   <div class="col card hoverable s12 pull-s1 m6 pull-m3 l4 pull-l4">
-    <form class="" method="post" action="registrar.php">
+    <form class="" method="post" action="includes/cadastro.php">
       <div class="card-content">
         <span class="card-title">Cadastrar novo animal de estimação</span>
         <div class="row">
