@@ -12,7 +12,7 @@ include_once 'database/banco.php';
   <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
     <form class="" method="post" action="registrar.php">
       <div class="card-content">
-        <span class="card-title">Digite suas credencias</span>
+        <img src="img/logo-menor.png" class="" alt="logotipo">
         <div class="row">
           <div class="input-field col s12">
             <label for="email">Email </label>
@@ -25,12 +25,12 @@ include_once 'database/banco.php';
         </div>
       </div>
       <div class="card-action right-align">
-        <input type="submit" class="btn green waves-effect waves-light" value="Login">
+        <button type="submit" class="btn orange waves-effect waves-light" value="btn-login">Entrar</button>
       </div>
     </form>
   </div>
 </div>
 
 <?php
-require_once 'layout/rodape.html'>;
+require_once 'layout/rodape.html';
 ?>

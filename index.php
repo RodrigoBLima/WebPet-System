@@ -11,5 +11,5 @@ include_once 'database/banco.php';
 
 
 <?php
-require_once 'layout/rodape.html'>;
+require_once 'layout/rodape.html';
 ?>
