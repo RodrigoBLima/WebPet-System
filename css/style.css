@@ -13,6 +13,12 @@
   bottom: 0;
 }
 
+/* estilo do formulario*/
+html,
+body,
+.login-box {
+  height: 100%;
+}
 /* valid color */
 .input-field input[type=text].valid {
   border-bottom: 1px solid #4dff4d;

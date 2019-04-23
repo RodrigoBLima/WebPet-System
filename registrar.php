@@ -8,7 +8,28 @@ include_once 'database/banco.php';
 
 ?>
 
-
+<div class="valign-wrapper row login-box">
+  <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
+    <form class="" method="post" action="registrar.php">
+      <div class="card-content">
+        <span class="card-title">Cadastrar novo animal de estimação</span>
+        <div class="row">
+          <div class="input-field col s12">
+            <label for="nome">Nome </label>
+            <input type="text" class="validate" name="nome" id="nome" />
+          </div>
+          <div class="input-field col s12">
+            <label for="password">Raça </label>
+            <input type="text" class="validate" name="raca" id="raca" />
+          </div>
+        </div>
+      </div>
+      <div class="card-action right-align">
+        <input type="submit" class="btn green waves-effect waves-light" value="Login">
+      </div>
+    </form>
+  </div>
+</div>
 
 <?php
 require_once 'layout/rodape.html'>;
