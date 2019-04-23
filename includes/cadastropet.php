@@ -9,20 +9,22 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 
 
 //adicionando o que vem do post nas variaveis
-$ = $_POST[''] =  preg_replace('/[^[:alpha:]_]/', '',$_POST['']);
-$ = $_POST[''];
-$  = $_POST[''];
+$nome = $_POST['nome'];
+$raca = $_POST['raca'];
+$pelagem  = $_POST['pelagem'];
+$idade  = $_POST['idade'];
+
 
 
 //inserindo dados no banco
-$query = "INSERT INTO `webpet` (``, ``, ``) VALUES ('$', '$', '$')";
+$query = "INSERT INTO `animal` (`nome`, `raca`, `pelagem`,`idade`) VALUES ('$nome', '$raca', '$pelagem', $idade)";
 
 
 //se deu tudo certo? exibir uma mensagem de ok
 if (mysqli_query($conn, $query)) {
 
-    header('Location: ../index.php');
-    $_SESSION['mensagem'] = "Usuario adicionado com sucesso";
+      header('Location: ../registrarpet.php');
+    $_SESSION['mensagem'] = "Animal de estimação adicionado com sucesso";
 } else {
   //se não deu certo exibir mensagem de erro
     echo  "<script>alert('Erro!);</script>". $query . "<br>" . mysqli_error($conn);
