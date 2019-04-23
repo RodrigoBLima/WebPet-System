@@ -3,7 +3,7 @@
 session_start();
 
 //fazendo requisicao do banco de dados
-@require_once 'database/banco.php';
+@require_once '../database/banco.php';
 
 // adicionando conexao a variavel com os dados do banco
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -22,8 +22,8 @@ $query = "INSERT INTO `usuario` (`nome`, `email`, `senha`) VALUES ('$nome', '$em
 //se deu tudo certo? exibir uma mensagem de ok
 if (mysqli_query($conn, $query)) {
 
-    header('Location: index.php');
-    $_SESSION['mensagem'] = "Usuario adicionado com sucesso";
+    header('Location: ../registrarpet.php');
+    $_SESSION['mensagem'] = "Seja bem vindo ". $nome ;
 } else {
   //se não deu certo exibir mensagem de erro
     echo  "<script>alert('Erro!);</script>". $query . "<br>" . mysqli_error($conn);

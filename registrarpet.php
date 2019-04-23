@@ -14,15 +14,32 @@ include_once 'database/banco.php';
       <div class="card-content">
         <span class="card-title">Cadastrar novo animal de estimação</span>
         <div class="row">
-          <div class="input-field col s12">
-            <label for="nome">Nome</label>
-            <input type="text" class="validate" name="nome" id="nome" />
-          </div>
-          <div class="input-field col s12">
-            <label for="raca">Raça </label>
-            <input type="text" class="validate" name="raca" id="raca" />
-          </div>
+              <div class="input-field col s12">
+                <label for="nome">Nome</label>
+                <input type="text" class="validate" name="nome" id="nome" />
+              </div>
+              <div class="input-field col s12">
+                <label for="raca">Raça </label>
+                <input type="text" class="validate" name="raca" id="raca" />
+              </div>
+              <div class="input-field col s12">
+                    <select name="pelagem" class="browser-default" required="" aria-required="true"  class="validate">
+                        <option value="" disabled selected>Escolha a pelagem</option>
 
+                        <option value="lisa">Lisa</option>
+                        <option value="rasa">Rasa</option>
+                        <option value="encaracolada">Encaracolada</option>
+                  </select>
+             </div>
+              <div class="input-field col s12">
+                    <select name="idade" class="browser-default" required="" aria-required="true"  class="validate">
+                        <option value="" disabled selected>Qual idade aproximada do animal?</option>
+
+                        <option value="1">Até um ano</option>
+                        <option value="2">Até dois anos</option>
+                        <option value="3">Até três anos</option>
+                  </select>
+             </div>
 
         </div>
       </div>

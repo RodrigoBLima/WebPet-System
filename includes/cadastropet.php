@@ -2,7 +2,7 @@
 //iniciando sessão
 session_start();
 //fazendo requisicao do banco de dados
-@require_once 'database/banco.php';
+@require_once '../database/banco.php';
 
 // adicionando conexao a variavel com os dados do banco
 $conn = mysqli_connect($servername, $username, $password, $database);
