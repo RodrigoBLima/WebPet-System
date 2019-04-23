@@ -16,11 +16,11 @@ include_once 'database/banco.php';
                 <div class="row">
                       <div class="input-field col s12">
                         <label for="nome">Nome</label>
-                        <input type="text" class="validate" name="nome" id="nome" />
+                        <input type="text" class="validate" required="" aria-required="true" name="nome" id="nome" />
                       </div>
                       <div class="input-field col s12">
                         <label for="raca">Raça </label>
-                        <input type="text" class="validate" name="raca" id="raca" />
+                        <input type="text" class="validate" required="" aria-required="true" name="raca" id="raca" />
                       </div>
                       <div class="input-field col s12">
                             <select name="pelagem" class="browser-default" required="" aria-required="true"  class="validate">

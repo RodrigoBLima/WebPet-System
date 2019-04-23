@@ -50,11 +50,11 @@ $conn = mysqli_connect($servername, $username, $password, $database);
         <div class="row">
           <div class="input-field col s12">
             <label for="email">Email </label>
-            <input type="email" class="validate" name="email" id="email" />
+            <input type="email" class="validate" required="" aria-required="true" name="email" id="email" />
           </div>
           <div class="input-field col s12">
             <label for="password">Senha </label>
-            <input type="password" class="validate" name="senha" id="senha" />
+            <input type="password" class="validate" required="" aria-required="true" name="senha" id="senha" />
           </div>
         </div>
       </div>

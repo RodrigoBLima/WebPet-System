@@ -28,14 +28,14 @@ endif;
                       <div class="input-field col s12">
                          <input type="hidden" name="id" value="<?php echo $dados['id_pet']; ?>">
                         <label for="nome">Nome</label>
-                        <input type="text" class="validate" name="nome" id="nome" value="<?php echo $dados['nome']; ?>"/>
+                        <input type="text" class="validate" required="" aria-required="true" name="nome" id="nome" value="<?php echo $dados['nome']; ?>"/>
                       </div>
                       <div class="input-field col s12">
                         <label for="raca">Raça </label>
-                        <input type="text" class="validate" name="raca" id="raca" value="<?php echo $dados['raca']; ?>"/>
+                        <input type="text" class="validate" required="" aria-required="true" name="raca" id="raca" value="<?php echo $dados['raca']; ?>"/>
                       </div>
                       <div class="input-field col s12">
-                            <select name="pelagem" class="browser-default" required="" aria-required="true"  class="validate">
+                            <select name="pelagem" class="browser-default" required="" aria-required="true" required="" aria-required="true"  class="validate">
                                 <option value="" disabled selected>Escolha a pelagem</option>
 
                                 <option value="lisa">Lisa</option>
