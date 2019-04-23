@@ -13,7 +13,7 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 //verificando se realmente existe um id para ser editado
 if(isset($_GET['id'])):
     $id = $_GET['id'];
-    $recebe = "SELECT * FROM animal WHERE id_animal = '$id'";
+    $recebe = "SELECT * FROM animal WHERE id_pet = '$id'";
     $resultado = mysqli_query($conn, $recebe);
     $dados = mysqli_fetch_array($resultado);
 endif;
@@ -26,7 +26,7 @@ endif;
                 <span class="card-title">Atualizar animal de estimação</span>
                 <div class="row">
                       <div class="input-field col s12">
-                         <input type="hidden" name="id" value="<?php echo $dados['id_animal']; ?>">
+                         <input type="hidden" name="id" value="<?php echo $dados['id_pet']; ?>">
                         <label for="nome">Nome</label>
                         <input type="text" class="validate" name="nome" id="nome" value="<?php echo $dados['nome']; ?>"/>
                       </div>

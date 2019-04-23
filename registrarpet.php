@@ -84,7 +84,7 @@ include_once 'database/banco.php';
                                <td><?php echo $dados['raca']; ?></td>
                                <td><?php echo $dados['pelagem']; ?></td>
                                <td><?php echo $dados['idade']; ?></td>
-                               <td><a href="editar.php?id=<?php echo $dados['id']; ?>" class="btn-floating orange"><i class="material-icons">edit</i></td>
+                               <td><a href="editar.php?id=<?php echo $dados['id_pet']; ?>" class="btn-floating orange"><i class="material-icons">edit</i></td>
 
 
                            </tr>
