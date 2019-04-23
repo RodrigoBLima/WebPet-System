@@ -25,6 +25,7 @@ include_once 'database/banco.php';
         </div>
       </div>
       <div class="card-action right-align">
+        <em><a href="registrar.php">Registre-se</a></em>
         <button type="submit" class="btn orange waves-effect waves-light">Entrar</button>
       </div>
     </form>

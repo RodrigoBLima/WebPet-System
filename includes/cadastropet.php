@@ -1,7 +1,6 @@
 <?php
 //iniciando sessão
 session_start();
-
 //fazendo requisicao do banco de dados
 @require_once 'database/banco.php';
 
@@ -10,19 +9,19 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 
 
 //adicionando o que vem do post nas variaveis
-$nome = $_POST['nome'] =  preg_replace('/[^[:alpha:]_]/', '',$_POST['nome']);
-$email = $_POST['email'];
-$senha  = $_POST['senha'];
+$ = $_POST[''] =  preg_replace('/[^[:alpha:]_]/', '',$_POST['']);
+$ = $_POST[''];
+$  = $_POST[''];
 
 
 //inserindo dados no banco
-$query = "INSERT INTO `usuario` (`nome`, `email`, `senha`) VALUES ('$nome', '$email', '$senha')";
+$query = "INSERT INTO `webpet` (``, ``, ``) VALUES ('$', '$', '$')";
 
 
 //se deu tudo certo? exibir uma mensagem de ok
 if (mysqli_query($conn, $query)) {
 
-    header('Location: index.php');
+    header('Location: ../index.php');
     $_SESSION['mensagem'] = "Usuario adicionado com sucesso";
 } else {
   //se não deu certo exibir mensagem de erro
