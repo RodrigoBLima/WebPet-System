@@ -76,6 +76,88 @@ include_once 'database/banco.php';
     </section>
 
 
+      <!-- Section: Follow -->
+      <section class="section section-follow orange darken-2 white-text center">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h4>Siga a WebPet nas redes sociais</h4>
+              <a href="htttps://facebook.com" target="_blank" class="white-text">
+                <i class="fab fa-facebook fa-4x"></i>
+              </a>
+              <a href="htttps://twitter.com" target="_blank" class="white-text">
+                <i class="fab fa-twitter fa-4x"></i>
+              </a>
+              <a href="htttps://linkedin.com" target="_blank" class="white-text">
+                <i class="fab fa-linkedin fa-4x"></i>
+              </a>
+              <a href="htttps://googleplus.com" target="_blank" class="white-text">
+                <i class="fab fa-google-plus fa-4x"></i>
+              </a>
+              <a href="htttps://pinterest.com" target="_blank" class="white-text">
+                <i class="fab fa-pinterest fa-4x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <!-- Section: Popular -->
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center">
+          <span class="teal-text">Animais</span> Disponiveis na plataforma</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/pet4.jpeg" alt="" style="width:300px;heigth:300px;">
+              <span class="card-title">Elliot</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
+                delectus?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/pet3.jpeg" alt="" style="width:300px;heigth:300px;">
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
+                delectus?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/pet2.jpeg" alt="" style="width:300px;heigth:300px;">
+              <span class="card-title">Nick</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
+                delectus?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 center">
+          <a href="#contact" class="btn btn-large grey darken-3">
+            <i class="material-icons left">send</i> Fale conosco
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
     <!--  newsletter -->
     <div class="grey lighten-5" >
