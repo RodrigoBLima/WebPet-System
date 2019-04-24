@@ -2,7 +2,7 @@
 //mensagem
 include_once "layout/mensagem.php";
 //fazendo a requisição do cabechalho html
-require_once 'layout/cabecalho.html';
+require_once 'layout/cabecalho.php';
 //incluindo conexao com banco de dados
 include_once 'database/banco.php';
 
@@ -12,7 +12,7 @@ include_once 'database/banco.php';
   <div class="col card hoverable s12 pull-s1 m6 pull-m3 l4 pull-l4">
     <form class="" method="POST" action="includes/cadastro.php">
       <div class="card-content">
-          <img src="img/logo-menor.png" class="" alt="logotipo">
+          <img src="img/logo-menor.png" class="" alt="logotipo" style="margin-left:110px;">
         <div class="row">
           <div class="input-field col s12">
             <label for="nome">Nome</label>

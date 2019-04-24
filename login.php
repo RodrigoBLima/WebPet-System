@@ -2,7 +2,7 @@
 //mensagem
 include_once "layout/mensagem.php";
 //fazendo a requisição do cabechalho html
-require_once 'layout/cabecalho.html';
+require_once 'layout/cabecalho.php';
 //incluindo conexao com banco de dados
 include_once 'database/banco.php';
 
@@ -46,7 +46,7 @@ $conn = mysqli_connect($servername, $username, $password, $database);
   <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
     <form class="" method="post" action="login.php">
       <div class="card-content">
-        <img src="img/logo-menor.png" class="" alt="logotipo">
+        <img src="img/logo-menor.png" class="" alt="logotipo" style="margin-left:110px;">
         <div class="row">
           <div class="input-field col s12">
             <label for="email">Email </label>
@@ -59,7 +59,7 @@ $conn = mysqli_connect($servername, $username, $password, $database);
         </div>
       </div>
       <div class="card-action right-align">
-        <em><a href="registrar.php">Registre-se</a></em>
+        <span><a href="registrar.php">Registre-se</a></span>
         <button type="submit" name="botao" class="btn orange waves-effect waves-light">Entrar</button>
       </div>
     </form>

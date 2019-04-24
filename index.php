@@ -2,7 +2,7 @@
 //mensagem
 include_once "layout/mensagem.php";
 //fazendo a requisição do cabechalho html
-require_once 'layout/cabecalho.html';
+require_once 'layout/cabecalho.php';
 //incluindo conexao com banco de dados
 include_once 'database/banco.php';
 
@@ -14,7 +14,7 @@ include_once 'database/banco.php';
 
     <!-- conteudo-->
     <h2 class="center-align">Conheça a nossa plataforma !</h2>
-    <section>    
+    <section>
         <div class="row">
           <!-- notice columns for each device size - small - medium -large -->
           <div class="col s10 offset-s1 m6 l4">

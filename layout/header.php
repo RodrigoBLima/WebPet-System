@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +28,7 @@
         <a href="index.php" class="brand-logo">WEBPET</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="login.php">Login</a></li>
+              <li><a href="index.php">Sair</a></li>
         </ul>
     </div>
 </nav>
